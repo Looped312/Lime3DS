@@ -173,7 +173,7 @@ class InputOverlayDrawableJoystick(
                 this.radius = radius
                 this.angle = angle
 
-                //overlay.hapticFeedback(HapticFeedbackConstants.CLOCK_TICK)
+                overlay.hapticFeedback(HapticFeedbackConstants.CLOCK_TICK)
             }
 
             return oldXAxis != this.xAxis && oldYAxis != this.yAxis
